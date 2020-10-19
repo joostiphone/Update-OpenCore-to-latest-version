@@ -1,6 +1,8 @@
 # Update OpenCore to the latest version
 Update OpenCore (and EFI) to latest version using OpenCore Configurator
 
+![alt test](/Pictures/OpenCoreUpdate.png)
+
 # Introduction
 Many of you asking how do I upgrade my OpenCore to the latest version. Updating OpenCore is not so easy as i.e. updating Clover, so therefore I made myself a small how-to to make lives easier. Hopefully this is of value to you.
 
