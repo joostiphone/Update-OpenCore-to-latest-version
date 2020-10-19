@@ -6,6 +6,15 @@ Many of you asking how do I upgrade my OpenCore to the latest version. Updating 
 
 Steps I undertake to upgrade OpenCore to the latest (stable) released build (it now takes me 30 minutes to do this per system): 
 
+# Check the Dortania website
+This is important for you to understand the changes in OpenCore. Dortania made a small how-to:
+https://dortania.github.io/OpenCore-Post-Install/universal/update.html
+And the Differences comparison can be handy:
+https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Differences/Differences.pdf
+
+The thing I find not so usefull here, is that you need to understand everything in the document, which is not so good for the more beginning hackintoshers (like myself). So, therefore, I follow my own little procedure as per below. 
+
+
 # OC Gen-X
 With OC Gen-X I generate my config.plist (and nothing more than that…) so that it’s based on OpenCore latest release build. 
 
