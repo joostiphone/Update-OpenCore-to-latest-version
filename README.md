@@ -8,6 +8,14 @@ Many of you asking how do I upgrade my OpenCore to the latest version. Updating 
 
 Steps I undertake to upgrade OpenCore to the latest (stable) released build (it now takes me 30 minutes to do this per system): 
 
+# Check your current OpenCore version
+Open Terminal app, and enter (without brackets) 
+" nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version " 
+and check which version of OpenCore you're currently using.
+ 
+ ![alt test](/Pictures/Screenshot 2021-02-13 at 10.31.27.png)
+
+
 # Check the Dortania website
 This is important for you to understand the changes in OpenCore. Dortania made a small how-to:
 https://dortania.github.io/OpenCore-Post-Install/universal/update.html
