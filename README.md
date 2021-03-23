@@ -29,7 +29,8 @@ The thing I find not so usefull here, is that you need to understand everything 
 With OC Gen-X I generate my config.plist (and nothing more than that…) so that it’s based on OpenCore latest release build. 
 
 Step 1:
-Install OC Gen-X.app. Download from: https://github.com/Pavo-IM/OC-Gen-X 
+Install the OC Gen-X.app. Download from: https://github.com/Pavo-IM/OC-Gen-X 
+OC Gen-X is downloading the latest config file as you would also download from https://github.com/acidanthera/OpenCorePkg/releases
 
 Step 2:
 Explanation per tab:
@@ -57,18 +58,12 @@ Additional BootArgs
 Step 2f:
 Click Generate EFI and use only the generated config.plist from the generated folder.
 
-
-# OCBuilder
-With OCBuilder I create my core EFI folder so that it’s based on OpenCore’s latest release build. 
-
-Install OCBuilder.app. Download from: https://github.com/Pavo-IM/ocbuilder 
-
--	Select version: ‘Release’, with Kexts (it downloads the latest kexts from the appropriate Github page).
--	Choose a location to save the EFI folder (e.g. desktop) and click ‘Build’.
+# Download the latest OpenCorePKG
+From: https://github.com/acidanthera/OpenCorePkg/releases
 
 # How to proceed? 
 -	Open the EFI folder you just created and copy the created config.plist in there
--	Copy all of your DDST’s, ACPI’s and drivers from your current (old) EFI to the folders you just created, and make sure you will use the latest kexts (you just downloaded most of them)
+-	Copy all of your DDST’s, ACPI’s and Kext drivers from your current (old) EFI to the folders you just created, and make sure you will use the latest kexts (you just downloaded most of them). And remove the Kexts etc. you don't need. 
 
 # OpenCore Configurator
 -	Download the latest here: https://mackie100projects.altervista.org/download-opencore-configurator/ 
