@@ -27,6 +27,11 @@ The thing I find not so usefull here, is that you need to understand everything 
 
 # HackinDROM
 
-UNDER MAINTENANCE, TO BE DONE. 
+This video shows you how to download, install and configure the HackinDROM app, ultimately to update OpenCore in a very easy and convenient manner.
 
-That’s it. Of course, before you load your new EFI, make sure you have a back-up which you can load back if things failed. 
+Credits to HackinDROM developer 'Inqnuam' and tester/guide writer 'CaseySJ' over at https://www.tonymacx86.com/
+
+https://www.youtube.com/watch?v=xRuerrG-lAU
+
+Download HackinDROM here: https://github.com/Inqnuam/HackinDROM
+
