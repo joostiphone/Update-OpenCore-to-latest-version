@@ -13,7 +13,7 @@ Open Terminal app, and enter (without brackets)
 " nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version " 
 and check which version of OpenCore you're currently using.
  
- ![alt test](/Pictures/OCversion.png)
+ ![alt test](/Pictures/2022-07-04_09-03-42.png)
 
 
 # Check the Dortania website
