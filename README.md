@@ -8,7 +8,7 @@ Many of you asking how do I upgrade my OpenCore to the latest version. Updating 
 
 Steps I undertake to upgrade OpenCore to the latest (stable) released build (it now takes me 30 minutes to do this per system): 
 
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=332c2HnPvoU "Update OpenCore")
+[<img src="/Pictures/Youtube-Thumbnail-joost.png" width="50%">](https://www.youtube.com/watch?v=332c2HnPvoU "Update OpenCore")
 
 # Check your current OpenCore version
 Open Terminal app, and enter (without brackets) 
