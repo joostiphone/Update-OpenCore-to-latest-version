@@ -29,16 +29,36 @@ The thing I find not so usefull here, is that you need to understand everything 
 # 3.1 Upgrade with OCAuxiliaryTools.app
 My preferred option is to use OCAuxiliaryTools.app ( https://github.com/ic005k/OCAuxiliaryTools )
 
+Open the application.
  ![alt test](/Pictures/1-OCupdate.png)
- ![alt test](/Pictures/2-OCupdate.png)
+
+Press Edit in the menu-bar and chose for OpenCore DEV to get the latest OC version in development (can be handy for the latest macOS version support). Then, in the same menu, choose 'Mount ESP' (which is your EFI) and load config.plist. 
+
  ![alt test](/Pictures/3-OCupdate.png)
+
+ You will probably see the red icon. You can ignore that, it's just saying that your current database version is not suitable for your EFI version. 
  ![alt test](/Pictures/4-OCupdate.png)
- ![alt test](/Pictures/5-OCupdate.png)
+
+Press the Update icon 'Upgrade OpenCore and Kexts
+ ![alt test](/Pictures/2-OCupdate.png)
+
+Select All kexts and Update them.
  ![alt test](/Pictures/6-OCupdate.png)
+
+Then select all OpenCore files and press 'Get OpenCore' 
+ ![alt test](/Pictures/5-OCupdate.png)
  ![alt test](/Pictures/7-OCupdate.png)
+
+ Press OK
  ![alt test](/Pictures/8-OCupdate.png)
+
+ and then press 'Start Sync'
  ![alt test](/Pictures/9-OCupdate.png)
+
+Press OK
  ![alt test](/Pictures/10-OCupdate.png)
+
+Press on File in the Menu-bar and press Save. Your EFI is now saved and OpenCore is updated! 
  ![alt test](/Pictures/11-OCupdate.png)
 
  
