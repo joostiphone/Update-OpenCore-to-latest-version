@@ -10,7 +10,7 @@ Steps I undertake to upgrade OpenCore to the latest (stable) released build (it 
 
 [<img src="/Pictures/Youtube-Thumbnail-joost.png" width="50%">](https://www.youtube.com/watch?v=332c2HnPvoU "Update OpenCore")
 
-# Check your current OpenCore version
+# 1. Check your current OpenCore version
 Open Terminal app, and enter (without brackets) 
 " nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version " 
 and check which version of OpenCore you're currently using.
@@ -18,7 +18,7 @@ and check which version of OpenCore you're currently using.
  ![alt test](/Pictures/2022-07-04_09-03-42.png)
 
 
-# Check the Dortania website
+# 2. Check the Dortania website
 This is important for you to understand the changes in OpenCore. Dortania made a small how-to:
 https://dortania.github.io/OpenCore-Post-Install/universal/update.html
 And the Differences comparison can be handy:
@@ -26,8 +26,23 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Differences/Differen
 
 The thing I find not so usefull here, is that you need to understand everything in the document, which is not so good for the more beginning hackintoshers (like myself). So, therefore, I follow my own little procedure as per below. 
 
+# 3.1 Upgrade with OCAuxiliaryTools.app
+My preferred option is to use OCAuxiliaryTools.app ( https://github.com/ic005k/OCAuxiliaryTools )
 
-# HackinDROM
+ ![alt test](/Pictures/1-OCupdate.png)
+ ![alt test](/Pictures/2-OCupdate.png)
+ ![alt test](/Pictures/3-OCupdate.png)
+ ![alt test](/Pictures/4-OCupdate.png)
+ ![alt test](/Pictures/5-OCupdate.png)
+ ![alt test](/Pictures/6-OCupdate.png)
+ ![alt test](/Pictures/7-OCupdate.png)
+ ![alt test](/Pictures/8-OCupdate.png)
+ ![alt test](/Pictures/9-OCupdate.png)
+ ![alt test](/Pictures/10-OCupdate.png)
+ ![alt test](/Pictures/11-OCupdate.png)
+
+ 
+# 3.2 Upgrade with HackinDROM
 
 This video shows you how to download, install and configure the HackinDROM app, ultimately to update OpenCore in a very easy and convenient manner.
 
